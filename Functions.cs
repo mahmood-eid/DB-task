@@ -34,6 +34,11 @@ namespace WindowsFormsApp1
         public int SetData(string Query)
         {
             int cnt = 0;
+            if(Con.State == ConnectionState.Closed)
+            {
+                Con.Open();
+            }
+
         }
     }
 }
