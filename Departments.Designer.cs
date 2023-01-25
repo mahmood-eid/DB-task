@@ -52,7 +52,7 @@
             // 
             // panel5
             // 
-            this.panel5.Location = new System.Drawing.Point(356, 200);
+            this.panel5.Location = new System.Drawing.Point(356, 222);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(480, 308);
             this.panel5.TabIndex = 49;
@@ -127,7 +127,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(334, 136);
+            this.label2.Location = new System.Drawing.Point(333, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(182, 20);
             this.label2.TabIndex = 32;
@@ -211,7 +211,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(343, 301);
+            this.label3.Location = new System.Drawing.Point(532, 200);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(135, 19);
             this.label3.TabIndex = 50;
