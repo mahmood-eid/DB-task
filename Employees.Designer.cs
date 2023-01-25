@@ -318,9 +318,9 @@
             // 
             // panel5
             // 
-            this.panel5.Location = new System.Drawing.Point(404, 200);
+            this.panel5.Location = new System.Drawing.Point(356, 200);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(319, 195);
+            this.panel5.Size = new System.Drawing.Size(480, 308);
             this.panel5.TabIndex = 30;
             // 
             // Employees
