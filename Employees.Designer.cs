@@ -174,9 +174,9 @@
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(35, 489);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(81, 19);
+            this.label7.Size = new System.Drawing.Size(180, 19);
             this.label7.TabIndex = 21;
-            this.label7.Text = "password";
+            this.label7.Text = "Employee Daily Salary";
             // 
             // label8
             // 
@@ -282,6 +282,7 @@
             this.Name = "Employees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employees";
+            this.Load += new System.EventHandler(this.Employees_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
