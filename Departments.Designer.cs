@@ -275,9 +275,10 @@
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(682, 116);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 19);
+            this.label7.Size = new System.Drawing.Size(56, 19);
             this.label7.TabIndex = 57;
-            this.label7.Text = "Departments";
+            this.label7.Text = "Salary";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox4
             // 

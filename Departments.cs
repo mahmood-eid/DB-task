@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
