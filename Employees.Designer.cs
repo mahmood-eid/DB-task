@@ -51,6 +51,7 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -290,12 +291,29 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(78, 543);
+            this.button1.Location = new System.Drawing.Point(39, 543);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 35);
+            this.button1.Size = new System.Drawing.Size(94, 35);
             this.button1.TabIndex = 28;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(145, 543);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 35);
+            this.button2.TabIndex = 29;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Employees
             // 
@@ -303,6 +321,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(836, 620);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
@@ -362,5 +381,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
