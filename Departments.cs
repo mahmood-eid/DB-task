@@ -12,14 +12,17 @@ namespace WindowsFormsApp1
 {
     public partial class Departments : Form
     {
+        Functions Con;
         public Departments()
         {
             InitializeComponent();
+            Con = new Functions();
+            ListerDepartments();
         }
         private void ListerDepartments()
         {
             string Query = "Select * from DepartmentTb1";
-
+            DepList.DataSource = Con.GetData(Query);
         }
 
         private void label4_Click(object sender, EventArgs e)
