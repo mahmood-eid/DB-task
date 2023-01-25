@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         public Functions()
         {
             ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mahmo\OneDrive\المستندات\EmpDb.mdf;Integrated Security=True;Connect Timeout=30";
+            Con = new SqlConnection(ConStr);
         }
     }
 }
