@@ -300,9 +300,9 @@
             this.label8.ForeColor = System.Drawing.Color.Teal;
             this.label8.Location = new System.Drawing.Point(734, 116);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 19);
+            this.label8.Size = new System.Drawing.Size(69, 19);
             this.label8.TabIndex = 59;
-            this.label8.Text = "Salary";
+            this.label8.Text = "Log Out";
             // 
             // pictureBox5
             // 
