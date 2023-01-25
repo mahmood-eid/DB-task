@@ -213,9 +213,9 @@
             this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(343, 301);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 19);
+            this.label3.Size = new System.Drawing.Size(135, 19);
             this.label3.TabIndex = 50;
-            this.label3.Text = "Department Name";
+            this.label3.Text = "Departments list";
             // 
             // Departments
             // 
