@@ -117,11 +117,11 @@ namespace WindowsFormsApp1
                 else
                 {
                     string Dep = DepNameTb.Text;
-                    string Query = "Update DepartmentTb1 set DepName =  '{0}'where DepId = {1}";
-                    Query = string.Format(Query, DepNameTb.Text, Key);
+                    string Query = "Delete from DepartmentTb1 where DepId = {0}";
+                    Query = string.Format(Query,Key);
                     Con.SetData(Query);
                     ShowDepartments();
-                    MessageBox.Show("Department Updated!!!");
+                    MessageBox.Show("Department Deleted!!!");
                     DepNameTb.Text = "";
 
                 }
