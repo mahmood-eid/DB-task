@@ -44,12 +44,20 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -212,12 +220,63 @@
             this.textBox6.Size = new System.Drawing.Size(164, 26);
             this.textBox6.TabIndex = 18;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(800, 100);
+            this.panel2.TabIndex = 2;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(296, 32);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(219, 20);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Employees management Sys.";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Teal;
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(800, 100);
+            this.panel3.TabIndex = 3;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(296, 32);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(219, 20);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Employees management Sys.";
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(253, 200);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.TabIndex = 22;
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 566);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox5);
@@ -238,6 +297,10 @@
             this.Text = "Employees";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,5 +324,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel4;
     }
 }
