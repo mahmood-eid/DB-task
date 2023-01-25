@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
         public DataTable GetData(string Query)
         {
-
+            dt = new DataTable();
         }
     }
 }
