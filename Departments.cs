@@ -90,11 +90,11 @@ namespace WindowsFormsApp1
                 else
                 {
                     string Dep = DepNameTb.Text;
-                    string Query = "insert into DepartmentTb1 values('{0}')";
-                    Query = string.Format(Query, DepNameTb.Text);
+                    string Query = "Update into DepartmentTb1 set DepName =  '{0}'where DepId = {1}";
+                    Query = string.Format(Query, DepNameTb.Text,Key);
                     Con.SetData(Query);
                     ShowDepartments();
-                    MessageBox.Show("Department Added!!!");
+                    MessageBox.Show("Department Updated!!!");
                     DepNameTb.Text = "";
 
                 }
