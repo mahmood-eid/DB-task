@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Salary : Form
+    public partial class Salaries : Form
     {
-        public Salary()
+        public Salaries()
         {
             InitializeComponent();
         }
