@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
         private SqlCommand Cmd;
         private DataTable dt;
         private SqlDataAdapter sda;
+        private String Constr;
         public Functions()
         {
 
