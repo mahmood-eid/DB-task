@@ -52,6 +52,7 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -315,12 +316,20 @@
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(404, 200);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(319, 195);
+            this.panel5.TabIndex = 30;
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(836, 620);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
@@ -382,5 +391,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel5;
     }
 }
