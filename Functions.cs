@@ -14,10 +14,10 @@ namespace WindowsFormsApp1
         private SqlCommand Cmd;
         private DataTable dt;
         private SqlDataAdapter sda;
-        private String Constr;
+        private String ConStr;
         public Functions()
         {
-
+            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mahmo\OneDrive\المستندات\EmpDb.mdf;Integrated Security=True;Connect Timeout=30";
         }
     }
 }
