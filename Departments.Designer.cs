@@ -52,6 +52,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.DepList = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -320,12 +321,30 @@
             this.DepList.TabIndex = 61;
             this.DepList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DepList_CellContentClick);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(105, 389);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 35);
+            this.button1.TabIndex = 62;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Departments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(836, 620);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.DepList);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox5);
@@ -391,5 +410,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.DataGridView DepList;
+        private System.Windows.Forms.Button button1;
     }
 }
