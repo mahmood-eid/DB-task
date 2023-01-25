@@ -265,9 +265,11 @@
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(253, 200);
+            this.panel4.BackColor = System.Drawing.Color.Teal;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 547);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.Size = new System.Drawing.Size(800, 19);
             this.panel4.TabIndex = 22;
             // 
             // Employees
