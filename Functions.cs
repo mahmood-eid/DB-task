@@ -22,5 +22,10 @@ namespace WindowsFormsApp1
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
         }
+
+        public DataTable GetData(string Query)
+        {
+
+        }
     }
 }
