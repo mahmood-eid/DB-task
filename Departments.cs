@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
         }
         private void ListerDepartments()
         {
+            string Query = "Select * from DepartmentTb1";
 
         }
 
