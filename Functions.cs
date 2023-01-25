@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace WindowsFormsApp1
     {
         private SqlConnection Con;
         private SqlCommand Cmd;
-        private 
+        private DataTable dt;
         public Functions()
         {
 
