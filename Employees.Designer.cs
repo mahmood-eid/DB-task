@@ -49,7 +49,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(262, 41);
+            this.label1.Location = new System.Drawing.Point(296, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 20);
             this.label1.TabIndex = 1;
@@ -61,11 +61,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(262, 124);
+            this.label2.Location = new System.Drawing.Point(334, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(219, 20);
+            this.label2.Size = new System.Drawing.Size(149, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Employees management Sys.";
+            this.label2.Text = "Manage Employees";
             // 
             // Employees
             // 
