@@ -94,9 +94,9 @@
             this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(35, 253);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 19);
+            this.label3.Size = new System.Drawing.Size(144, 19);
             this.label3.TabIndex = 12;
-            this.label3.Text = "password";
+            this.label3.Text = "Employee Gender";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
