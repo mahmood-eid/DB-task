@@ -318,6 +318,7 @@
             this.DepList.Name = "DepList";
             this.DepList.Size = new System.Drawing.Size(499, 356);
             this.DepList.TabIndex = 61;
+            this.DepList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DepList_CellContentClick);
             // 
             // Departments
             // 
