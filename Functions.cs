@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
             dt = new DataTable();
             sda = new SqlDataAdapter(Query, ConStr);
             sda.Fill(dt);
+            return dt; 
         }
     }
 }
