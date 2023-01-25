@@ -261,9 +261,9 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(509, 116);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 19);
+            this.label6.Size = new System.Drawing.Size(108, 19);
             this.label6.TabIndex = 55;
-            this.label6.Text = "Employee";
+            this.label6.Text = "Departments";
             // 
             // Departments
             // 
