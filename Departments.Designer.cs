@@ -96,6 +96,7 @@
             this.AddBtn.TabIndex = 47;
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // pictureBox1
             // 
@@ -311,6 +312,7 @@
             // 
             // DepList
             // 
+            this.DepList.BackgroundColor = System.Drawing.Color.White;
             this.DepList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DepList.Location = new System.Drawing.Point(337, 222);
             this.DepList.Name = "DepList";

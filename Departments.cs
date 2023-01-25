@@ -16,6 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+        private void ListerDepartments()
+        {
+
+        }
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -28,6 +32,11 @@ namespace WindowsFormsApp1
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
         {
 
         }
