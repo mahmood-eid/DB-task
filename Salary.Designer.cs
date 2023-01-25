@@ -190,9 +190,9 @@
             this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(330, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(165, 20);
+            this.label2.Size = new System.Drawing.Size(128, 20);
             this.label2.TabIndex = 32;
-            this.label2.Text = "Manage Employees";
+            this.label2.Text = "Manage Salary";
             // 
             // label1
             // 
