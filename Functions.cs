@@ -10,6 +10,8 @@ namespace WindowsFormsApp1
     class Functions
     {
         private SqlConnection Con;
+        private SqlCommand Cmd;
+        private 
         public Functions()
         {
 
