@@ -28,7 +28,12 @@ namespace WindowsFormsApp1
             dt = new DataTable();
             sda = new SqlDataAdapter(Query, ConStr);
             sda.Fill(dt);
-            return dt; 
+            return dt;
+        }
+
+        public int SetData(string Query)
+        {
+            int cnt = 0;
         }
     }
 }
