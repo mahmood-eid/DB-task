@@ -228,9 +228,10 @@
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(35, 200);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 19);
+            this.label4.Size = new System.Drawing.Size(85, 19);
             this.label4.TabIndex = 34;
-            this.label4.Text = "Employee Name";
+            this.label4.Text = "Employee";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
             // 
