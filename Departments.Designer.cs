@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Departments));
             this.panel5 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -86,22 +86,22 @@
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // AddBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(39, 330);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 35);
-            this.button1.TabIndex = 47;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.AddBtn.FlatAppearance.BorderSize = 2;
+            this.AddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.AddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(39, 330);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(94, 35);
+            this.AddBtn.TabIndex = 47;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -332,7 +332,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label4);
@@ -365,7 +365,7 @@
 
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
