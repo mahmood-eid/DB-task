@@ -109,13 +109,13 @@ namespace WindowsFormsApp1
         {
             try
             {
-                if (DepNameTb.Text == "")
+                if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
                 {
                     MessageBox.Show("Missing Data !!");
                 }
                 else
                 {
-                    string Dep = DepNameTb.Text;
+                    string Name = EmpNameTb.Text;
                     string Query = "insert into DepartmentTb1 values('{0}')";
                     Query = string.Format(Query, DepNameTb.Text);
                     Con.SetData(Query);
