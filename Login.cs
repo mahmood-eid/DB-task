@@ -36,6 +36,7 @@ namespace WindowsFormsApp1
         {
             UNameTb.Text = "";
             PasswordTb.Text = "";
+
         }
     }
 }
