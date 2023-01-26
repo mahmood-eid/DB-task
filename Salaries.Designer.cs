@@ -56,7 +56,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.DepList = new System.Windows.Forms.DataGridView();
+            this.SalaryList = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -65,7 +65,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DepList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SalaryList)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -367,14 +367,14 @@
             this.pictureBox3.TabIndex = 60;
             this.pictureBox3.TabStop = false;
             // 
-            // DepList
+            // SalaryList
             // 
-            this.DepList.BackgroundColor = System.Drawing.Color.White;
-            this.DepList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DepList.Location = new System.Drawing.Point(334, 222);
-            this.DepList.Name = "DepList";
-            this.DepList.Size = new System.Drawing.Size(499, 356);
-            this.DepList.TabIndex = 68;
+            this.SalaryList.BackgroundColor = System.Drawing.Color.White;
+            this.SalaryList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.SalaryList.Location = new System.Drawing.Point(334, 222);
+            this.SalaryList.Name = "SalaryList";
+            this.SalaryList.Size = new System.Drawing.Size(499, 356);
+            this.SalaryList.TabIndex = 68;
             // 
             // Salaries
             // 
@@ -382,7 +382,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(836, 620);
-            this.Controls.Add(this.DepList);
+            this.Controls.Add(this.SalaryList);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label7);
@@ -421,7 +421,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DepList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SalaryList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -455,6 +455,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView DepList;
+        private System.Windows.Forms.DataGridView SalaryList;
     }
 }
