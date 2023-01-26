@@ -280,6 +280,7 @@
             this.DOBTb.CalendarMonthBackground = System.Drawing.Color.Teal;
             this.DOBTb.Checked = false;
             this.DOBTb.CustomFormat = "";
+            this.DOBTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.DOBTb.Location = new System.Drawing.Point(39, 397);
             this.DOBTb.Name = "DOBTb";
             this.DOBTb.Size = new System.Drawing.Size(200, 20);
