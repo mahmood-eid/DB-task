@@ -60,7 +60,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.DepList = new System.Windows.Forms.DataGridView();
+            this.EmployeeList = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -69,7 +69,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DepList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EmployeeList)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -413,14 +413,14 @@
             this.pictureBox3.TabIndex = 60;
             this.pictureBox3.TabStop = false;
             // 
-            // DepList
+            // EmployeeList
             // 
-            this.DepList.BackgroundColor = System.Drawing.Color.White;
-            this.DepList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DepList.Location = new System.Drawing.Point(339, 200);
-            this.DepList.Name = "DepList";
-            this.DepList.Size = new System.Drawing.Size(499, 356);
-            this.DepList.TabIndex = 68;
+            this.EmployeeList.BackgroundColor = System.Drawing.Color.White;
+            this.EmployeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.EmployeeList.Location = new System.Drawing.Point(339, 200);
+            this.EmployeeList.Name = "EmployeeList";
+            this.EmployeeList.Size = new System.Drawing.Size(499, 356);
+            this.EmployeeList.TabIndex = 68;
             // 
             // Employees
             // 
@@ -428,7 +428,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(836, 620);
-            this.Controls.Add(this.DepList);
+            this.Controls.Add(this.EmployeeList);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label12);
@@ -472,7 +472,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DepList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EmployeeList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -511,6 +511,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView DepList;
+        private System.Windows.Forms.DataGridView EmployeeList;
     }
 }
