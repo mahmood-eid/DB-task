@@ -264,6 +264,7 @@
             this.EmpCb.Name = "EmpCb";
             this.EmpCb.Size = new System.Drawing.Size(200, 28);
             this.EmpCb.TabIndex = 50;
+            this.EmpCb.SelectionChangeCommitted += new System.EventHandler(this.EmpCb_SelectionChangeCommitted);
             // 
             // DaysTb
             // 

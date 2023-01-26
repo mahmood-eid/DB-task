@@ -28,12 +28,16 @@ namespace WindowsFormsApp1
             EmpCb.DataSource = Con.GetData(Query);
         }
         int DSal = 0;
+        string Period = "";
         private void GetSalary()
         {
-            string Query = "select EmpSal from EmployeeTb1 where EmpId = {0} ";
+            string Query = "select * from EmployeeTb1 where EmpId = {0} ";
             Query = string.Format(Query, EmpCb.SelectedValue.ToString());
-            DSal = Convert.ToInt32(Con.GetData(Query).Columns["EmpSal"].ToString());
-            MessageBox.Show("" + DSal);
+            foreach(DataRow dr in Con.GetData(Query).Rows)
+            {
+                DSal = Convert.ToInt32(dr["EmpSal"].ToString());
+            }
+            // MessageBox.Show(DSal + "");
             // EmpCb.DataSource = Con.GetData(Query);
         }
 
@@ -61,7 +65,40 @@ namespace WindowsFormsApp1
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if(EmpCb.SelectedIndex == -1 || DaysTb.Text == "" || PeriodTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data");
+                } 
+                else
+                {
+                    Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
+                    int Amount = DSal * Convert.ToInt32(DaysTb.Text);
+                    int Days = Convert.ToInt32(DaysTb.Text); 
+                    string Query = "insert into SalaryTb1 values('{0}','{1}','{2}','{3}','{4}','{5}')";
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
+                    Con.SetData(Query);
+                    ShowSalaries();
+                    MessageBox.Show("Salary Paid!!!");
+                    EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
 
+                }
+
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+
+        }
+
+        private void EmpCb_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            GetSalary();
         }
     }
 }
