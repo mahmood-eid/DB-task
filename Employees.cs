@@ -117,7 +117,7 @@ namespace WindowsFormsApp1
                 {
                     string Name = EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.ToString();
-                    string Dep = GenCb.SelectedValue.ToString();
+                    int Dep = Convert.ToInt32(GenCb.SelectedValue.ToString());
                     string DOB = DOBTb.Value.ToString();
                     string JDate = JDateTb.Value.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
