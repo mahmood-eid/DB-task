@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.LoginBtn = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.ResetLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,17 +124,17 @@
             this.LoginBtn.Text = "LOGIN";
             this.LoginBtn.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // ResetLbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Gadugi", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(504, 377);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 19);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "reset";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.ResetLbl.AutoSize = true;
+            this.ResetLbl.Font = new System.Drawing.Font("Gadugi", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetLbl.ForeColor = System.Drawing.Color.Teal;
+            this.ResetLbl.Location = new System.Drawing.Point(504, 377);
+            this.ResetLbl.Name = "ResetLbl";
+            this.ResetLbl.Size = new System.Drawing.Size(46, 19);
+            this.ResetLbl.TabIndex = 9;
+            this.ResetLbl.Text = "reset";
+            this.ResetLbl.Click += new System.EventHandler(this.label4_Click);
             // 
             // Login
             // 
@@ -142,7 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ResetLbl);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -173,7 +173,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button LoginBtn;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label ResetLbl;
     }
 }
 
