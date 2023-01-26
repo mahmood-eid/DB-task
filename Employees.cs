@@ -143,7 +143,30 @@ namespace WindowsFormsApp1
 
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (Key == 0)
+                {
+                    MessageBox.Show("Missing Data !!");
+                }
+                else
+                {
+                    
+                    string Query = "Update EmployeeTb1 set EmpName = '{0}', EmpGen = '{1}', EmpDep = '{2}', EmpDOB = '{3}', EmpJDate = '{4}', EmpSal = '{5}' where EmpId = '{6}'";
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary, Key);
+                    Con.SetData(Query);
+                    ShowEmp();
+                    MessageBox.Show("Employee Added!!!");
+                    EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
 
         private void UpdateBtn_Click(object sender, EventArgs e)
