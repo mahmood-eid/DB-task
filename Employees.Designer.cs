@@ -426,6 +426,7 @@
             this.EmployeeList.Name = "EmployeeList";
             this.EmployeeList.Size = new System.Drawing.Size(523, 356);
             this.EmployeeList.TabIndex = 68;
+            this.EmployeeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmployeeList_CellContentClick);
             // 
             // DeleteBtn
             // 
