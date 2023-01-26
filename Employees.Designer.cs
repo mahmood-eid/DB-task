@@ -332,6 +332,7 @@
             this.UpdateBtn.TabIndex = 29;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // label11
             // 
@@ -442,6 +443,7 @@
             this.DeleteBtn.TabIndex = 69;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.UseVisualStyleBackColor = false;
+            this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
             // 
             // Employees
             // 
