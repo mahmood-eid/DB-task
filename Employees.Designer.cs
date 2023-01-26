@@ -291,6 +291,7 @@
             // 
             this.JDate.CalendarForeColor = System.Drawing.Color.Teal;
             this.JDate.CustomFormat = "";
+            this.JDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.JDate.Location = new System.Drawing.Point(39, 466);
             this.JDate.Name = "JDate";
             this.JDate.Size = new System.Drawing.Size(200, 20);
