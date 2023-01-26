@@ -71,6 +71,7 @@ namespace WindowsFormsApp1
                 {
                     MessageBox.Show("Missing Data");
                 } 
+
                 else
                 {
                     Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
