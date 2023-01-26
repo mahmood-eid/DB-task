@@ -48,8 +48,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GenCb = new System.Windows.Forms.ComboBox();
             this.DepCb = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.DOBTb = new System.Windows.Forms.DateTimePicker();
+            this.JDate = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -273,26 +273,26 @@
             this.DepCb.Size = new System.Drawing.Size(200, 21);
             this.DepCb.TabIndex = 25;
             // 
-            // dateTimePicker1
+            // DOBTb
             // 
-            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.Teal;
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Teal;
-            this.dateTimePicker1.Checked = false;
-            this.dateTimePicker1.CustomFormat = "";
-            this.dateTimePicker1.Location = new System.Drawing.Point(39, 397);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 26;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.DOBTb.CalendarForeColor = System.Drawing.Color.Teal;
+            this.DOBTb.CalendarMonthBackground = System.Drawing.Color.Teal;
+            this.DOBTb.Checked = false;
+            this.DOBTb.CustomFormat = "";
+            this.DOBTb.Location = new System.Drawing.Point(39, 397);
+            this.DOBTb.Name = "DOBTb";
+            this.DOBTb.Size = new System.Drawing.Size(200, 20);
+            this.DOBTb.TabIndex = 26;
+            this.DOBTb.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // dateTimePicker2
+            // JDate
             // 
-            this.dateTimePicker2.CalendarForeColor = System.Drawing.Color.Teal;
-            this.dateTimePicker2.CustomFormat = "";
-            this.dateTimePicker2.Location = new System.Drawing.Point(39, 466);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 27;
+            this.JDate.CalendarForeColor = System.Drawing.Color.Teal;
+            this.JDate.CustomFormat = "";
+            this.JDate.Location = new System.Drawing.Point(39, 466);
+            this.JDate.Name = "JDate";
+            this.JDate.Size = new System.Drawing.Size(200, 20);
+            this.JDate.TabIndex = 27;
             // 
             // button1
             // 
@@ -436,8 +436,8 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.JDate);
+            this.Controls.Add(this.DOBTb);
             this.Controls.Add(this.DepCb);
             this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
@@ -495,8 +495,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox GenCb;
         private System.Windows.Forms.ComboBox DepCb;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DOBTb;
+        private System.Windows.Forms.DateTimePicker JDate;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel5;
