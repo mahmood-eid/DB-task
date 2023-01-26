@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
         {
             string Query = "select * from EmployeeTb1";
             EmpCb.DisplayMember = Con.GetData(Query).Columns["EmpName"].ToString();
-            EmpCb.ValueMember = Con.GetData(Query).Columns["EmId"].ToString();
+            EmpCb.ValueMember = Con.GetData(Query).Columns["EmpId"].ToString();
             EmpCb.DataSource = Con.GetData(Query);
         }
         private void ShowSalaries()
