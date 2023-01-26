@@ -256,6 +256,7 @@
             this.EmpLbl.Size = new System.Drawing.Size(85, 19);
             this.EmpLbl.TabIndex = 54;
             this.EmpLbl.Text = "Employee";
+            this.EmpLbl.Click += new System.EventHandler(this.EmpLbl_Click);
             // 
             // label6
             // 

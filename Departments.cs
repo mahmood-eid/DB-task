@@ -132,5 +132,10 @@ namespace WindowsFormsApp1
             }
 
         }
+
+        private void EmpLbl_Click(object sender, EventArgs e)
+        {
+            Employees Obj = new Employees();
+        }
     }
 }
