@@ -96,6 +96,11 @@ namespace WindowsFormsApp1
 
         }
 
+        private void GetDepartment()
+        {
+            string Query = "select * from DepartmentTb1";
+
+        }
         private void AddBtn_Click(object sender, EventArgs e)
         {
 
