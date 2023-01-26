@@ -116,12 +116,18 @@ namespace WindowsFormsApp1
                 else
                 {
                     string Name = EmpNameTb.Text;
-                    string Query = "insert into DepartmentTb1 values('{0}')";
-                    Query = string.Format(Query, DepNameTb.Text);
+                    string Gender = GenCb.SelectedItem.ToString();
+                    string Dep = GenCb.SelectedValue.ToString();
+                    string DOB = DOBTb.Value.ToString();
+                    string JDate = JDateTb.Value.ToString();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
+
+                    string Query = "insert into EmployeeTb1 values('{0}', '(1)', '(2)', '(3)', '(4)', '(5)'";
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
                     Con.SetData(Query);
-                    ShowDepartments();
-                    MessageBox.Show("Department Added!!!");
-                    DepNameTb.Text = "";
+                    ShowEmp();
+                    MessageBox.Show("Employee Added!!!");
+                    EmpNameTb.Text = "";
 
                 }
             }

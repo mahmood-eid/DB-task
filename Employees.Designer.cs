@@ -49,7 +49,7 @@
             this.GenCb = new System.Windows.Forms.ComboBox();
             this.DepCb = new System.Windows.Forms.ComboBox();
             this.DOBTb = new System.Windows.Forms.DateTimePicker();
-            this.JDate = new System.Windows.Forms.DateTimePicker();
+            this.JDateTb = new System.Windows.Forms.DateTimePicker();
             this.AddBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
@@ -287,15 +287,15 @@
             this.DOBTb.TabIndex = 26;
             this.DOBTb.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // JDate
+            // JDateTb
             // 
-            this.JDate.CalendarForeColor = System.Drawing.Color.Teal;
-            this.JDate.CustomFormat = "";
-            this.JDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.JDate.Location = new System.Drawing.Point(39, 466);
-            this.JDate.Name = "JDate";
-            this.JDate.Size = new System.Drawing.Size(200, 20);
-            this.JDate.TabIndex = 27;
+            this.JDateTb.CalendarForeColor = System.Drawing.Color.Teal;
+            this.JDateTb.CustomFormat = "";
+            this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.JDateTb.Location = new System.Drawing.Point(39, 466);
+            this.JDateTb.Name = "JDateTb";
+            this.JDateTb.Size = new System.Drawing.Size(200, 20);
+            this.JDateTb.TabIndex = 27;
             // 
             // AddBtn
             // 
@@ -442,7 +442,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.JDate);
+            this.Controls.Add(this.JDateTb);
             this.Controls.Add(this.DOBTb);
             this.Controls.Add(this.DepCb);
             this.Controls.Add(this.GenCb);
@@ -503,7 +503,7 @@
         private System.Windows.Forms.ComboBox GenCb;
         private System.Windows.Forms.ComboBox DepCb;
         private System.Windows.Forms.DateTimePicker DOBTb;
-        private System.Windows.Forms.DateTimePicker JDate;
+        private System.Windows.Forms.DateTimePicker JDateTb;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Label label11;
