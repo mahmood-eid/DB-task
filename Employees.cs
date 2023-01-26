@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             Con = new Functions();
             ShowEmp();
+            GetDepartment();
         }
         private void ShowEmp()
         {
