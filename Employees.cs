@@ -227,5 +227,12 @@ namespace WindowsFormsApp1
                 Key = Convert.ToInt32(EmployeeList.SelectedRows[0].Cells[1].Value.ToString());
             }
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
+        }
     }
 }
