@@ -12,9 +12,17 @@ namespace WindowsFormsApp1
 {
     public partial class Employees : Form
     {
+        Functions Con;
         public Employees()
         {
             InitializeComponent();
+            Con = new Functions();
+            ShowDepartments();
+        }
+        private void ShowDepartments()
+        {
+            string Query = "Select * from DepartmentTb1";
+            DepList.DataSource = Con.GetData(Query);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -84,6 +92,11 @@ namespace WindowsFormsApp1
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddBtn_Click(object sender, EventArgs e)
         {
 
         }
