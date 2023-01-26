@@ -208,7 +208,18 @@ namespace WindowsFormsApp1
         int Key = 0;
         private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            EmpNameTb.Text = EmployeeList.SelectedRows[0].Cells[0].Value.ToString();
+            EmpNameTb.Text = EmployeeList.SelectedRows[0].Cells[0].Value.ToString();
+            EmpNameTb.Text = EmployeeList.SelectedRows[0].Cells[0].Value.ToString();
+            EmpNameTb.Text = EmployeeList.SelectedRows[0].Cells[0].Value.ToString();
+            if (EmpNameTb.Text == "")
+            {
+                Key = 0;
+            }
+            else
+            {
+                Key = Convert.ToInt32(EmployeeList.SelectedRows[0].Cells[1].Value.ToString());
+            }
         }
     }
 }
