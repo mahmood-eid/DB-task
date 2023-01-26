@@ -17,12 +17,12 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             Con = new Functions();
-            ShowDepartments();
+            ShowEmp();
         }
-        private void ShowDepartments()
+        private void ShowEmp()
         {
-            string Query = "Select * from DepartmentTb1";
-            DepList.DataSource = Con.GetData(Query);
+            string Query = "Select * from EmployeeTb1";
+            EmployeeList.DataSource = Con.GetData(Query);
         }
 
         private void label1_Click(object sender, EventArgs e)
