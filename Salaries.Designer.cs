@@ -370,11 +370,14 @@
             // 
             // AmountTb
             // 
+            this.AmountTb.Enabled = false;
             this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.AmountTb.ForeColor = System.Drawing.Color.Teal;
             this.AmountTb.Location = new System.Drawing.Point(39, 397);
             this.AmountTb.Name = "AmountTb";
             this.AmountTb.Size = new System.Drawing.Size(200, 26);
             this.AmountTb.TabIndex = 69;
+            this.AmountTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Salaries
             // 
