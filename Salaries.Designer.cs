@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Salaries));
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.AddBtn = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.SalaryTb = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,7 +47,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.PeriodTb = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -102,16 +102,16 @@
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker1
+            // SalaryTb
             // 
-            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.Teal;
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Teal;
-            this.dateTimePicker1.Checked = false;
-            this.dateTimePicker1.CustomFormat = "";
-            this.dateTimePicker1.Location = new System.Drawing.Point(39, 397);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker1.TabIndex = 45;
+            this.SalaryTb.CalendarForeColor = System.Drawing.Color.Teal;
+            this.SalaryTb.CalendarMonthBackground = System.Drawing.Color.Teal;
+            this.SalaryTb.Checked = false;
+            this.SalaryTb.CustomFormat = "";
+            this.SalaryTb.Location = new System.Drawing.Point(39, 397);
+            this.SalaryTb.Name = "SalaryTb";
+            this.SalaryTb.Size = new System.Drawing.Size(200, 26);
+            this.SalaryTb.TabIndex = 45;
             // 
             // pictureBox1
             // 
@@ -272,16 +272,16 @@
             this.textBox1.Size = new System.Drawing.Size(200, 26);
             this.textBox1.TabIndex = 51;
             // 
-            // dateTimePicker3
+            // PeriodTb
             // 
-            this.dateTimePicker3.CalendarForeColor = System.Drawing.Color.Teal;
-            this.dateTimePicker3.CalendarMonthBackground = System.Drawing.Color.Teal;
-            this.dateTimePicker3.Checked = false;
-            this.dateTimePicker3.CustomFormat = "";
-            this.dateTimePicker3.Location = new System.Drawing.Point(39, 336);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker3.TabIndex = 52;
+            this.PeriodTb.CalendarForeColor = System.Drawing.Color.Teal;
+            this.PeriodTb.CalendarMonthBackground = System.Drawing.Color.Teal;
+            this.PeriodTb.Checked = false;
+            this.PeriodTb.CustomFormat = "";
+            this.PeriodTb.Location = new System.Drawing.Point(39, 336);
+            this.PeriodTb.Name = "PeriodTb";
+            this.PeriodTb.Size = new System.Drawing.Size(200, 26);
+            this.PeriodTb.TabIndex = 52;
             // 
             // label8
             // 
@@ -391,12 +391,12 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.dateTimePicker3);
+            this.Controls.Add(this.PeriodTb);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.SalaryTb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label5);
@@ -430,7 +430,7 @@
         #endregion
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Button AddBtn;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker SalaryTb;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label5;
@@ -446,7 +446,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker PeriodTb;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label7;
