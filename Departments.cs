@@ -31,9 +31,9 @@ namespace WindowsFormsApp1
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void SalaryLbl_Click(object sender, EventArgs e)
         {
-
+            Salaries Obj = new Salaries();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
