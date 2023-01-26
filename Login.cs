@@ -58,5 +58,10 @@ namespace WindowsFormsApp1
                 PasswordTb.Text = "";
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
