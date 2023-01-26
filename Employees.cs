@@ -99,6 +99,9 @@ namespace WindowsFormsApp1
         private void GetDepartment()
         {
             string Query = "select * from DepartmentTb1";
+            DepCb.DisplayMember = Con.GetData(Query).Columns["DepName"].ToString();
+            DepCb.ValueMember = Con.GetData(Query).Columns["DepId"].ToString();
+            DepCb.DataSource = Con.GetData(Query);
 
         }
         private void AddBtn_Click(object sender, EventArgs e)
