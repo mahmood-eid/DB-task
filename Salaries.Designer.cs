@@ -375,6 +375,7 @@
             this.SalaryList.Name = "SalaryList";
             this.SalaryList.Size = new System.Drawing.Size(499, 356);
             this.SalaryList.TabIndex = 68;
+            this.SalaryList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SalaryList_CellContentClick);
             // 
             // Salaries
             // 

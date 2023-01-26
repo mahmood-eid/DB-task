@@ -22,8 +22,15 @@ namespace WindowsFormsApp1
         }
         private void ShowEmp()
         {
-            string Query = "Select * from EmployeeTb1";
-            EmployeeList.DataSource = Con.GetData(Query);
+            try
+            {
+                string Query = "Select * from EmployeeTb1";
+                EmployeeList.DataSource = Con.GetData(Query);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
