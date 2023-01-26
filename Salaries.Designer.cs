@@ -45,7 +45,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.EmpCb = new System.Windows.Forms.ComboBox();
             this.DaysTb = new System.Windows.Forms.TextBox();
             this.PeriodTb = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
@@ -253,16 +253,16 @@
             this.panel1.Size = new System.Drawing.Size(836, 100);
             this.panel1.TabIndex = 31;
             // 
-            // comboBox3
+            // EmpCb
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.EmpCb.FormattingEnabled = true;
+            this.EmpCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox3.Location = new System.Drawing.Point(39, 222);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(200, 28);
-            this.comboBox3.TabIndex = 50;
+            this.EmpCb.Location = new System.Drawing.Point(39, 222);
+            this.EmpCb.Name = "EmpCb";
+            this.EmpCb.Size = new System.Drawing.Size(200, 28);
+            this.EmpCb.TabIndex = 50;
             // 
             // DaysTb
             // 
@@ -393,7 +393,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.PeriodTb);
             this.Controls.Add(this.DaysTb);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.EmpCb);
             this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.SalaryTb);
@@ -444,7 +444,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox EmpCb;
         private System.Windows.Forms.TextBox DaysTb;
         private System.Windows.Forms.DateTimePicker PeriodTb;
         private System.Windows.Forms.Label label8;
