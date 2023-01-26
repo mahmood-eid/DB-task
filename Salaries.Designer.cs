@@ -101,6 +101,7 @@
             this.AddBtn.TabIndex = 47;
             this.AddBtn.Text = "Add";
             this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // SalaryTb
             // 
