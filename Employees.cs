@@ -152,11 +152,11 @@ namespace WindowsFormsApp1
                 else
                 {
                     
-                    string Query = "Update EmployeeTb1 set EmpName = '{0}', EmpGen = '{1}', EmpDep = '{2}', EmpDOB = '{3}', EmpJDate = '{4}', EmpSal = '{5}' where EmpId = '{6}'";
-                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary, Key);
+                    string Query = "Delete from EmployeeTb1 where EmpId = {0}";
+                    Query = string.Format(Query,Key);
                     Con.SetData(Query);
                     ShowEmp();
-                    MessageBox.Show("Employee Added!!!");
+                    MessageBox.Show("Employee Deleted!!!");
                     EmpNameTb.Text = "";
                     DailySalTb.Text = "";
                     GenCb.SelectedIndex = -1;
