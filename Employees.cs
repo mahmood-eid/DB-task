@@ -112,17 +112,16 @@ namespace WindowsFormsApp1
                 if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
                 {
                     MessageBox.Show("Missing Data !!");
-                }
-                else
+                }else
                 {
                     string Name = EmpNameTb.Text;
                     string Gender = GenCb.SelectedItem.ToString();
-                    int Dep = Convert.ToInt32(GenCb.SelectedValue.ToString());
+                    int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
                     string DOB = DOBTb.Value.ToString();
                     string JDate = JDateTb.Value.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
 
-                    string Query = "insert into EmployeeTb1 values('{0}', '(1)', '(2)', '(3)', '(4)', '(5)'";
+                    string Query = "insert into EmployeeTb1 values('{0}','{1}','{2}','{3}','{4}','{5}')";
                     Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
                     Con.SetData(Query);
                     ShowEmp();
