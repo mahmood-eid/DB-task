@@ -38,7 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.EmpNameTb = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -46,8 +46,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.GenCb = new System.Windows.Forms.ComboBox();
+            this.DepCb = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
@@ -172,14 +172,14 @@
             this.label4.Text = "Employee Name";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox2
+            // EmpNameTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox2.Location = new System.Drawing.Point(39, 222);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 26);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.EmpNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.EmpNameTb.Location = new System.Drawing.Point(39, 222);
+            this.EmpNameTb.Name = "EmpNameTb";
+            this.EmpNameTb.Size = new System.Drawing.Size(200, 26);
+            this.EmpNameTb.TabIndex = 9;
+            this.EmpNameTb.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label5
             // 
@@ -253,25 +253,25 @@
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // GenCb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.GenCb.FormattingEnabled = true;
+            this.GenCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(39, 275);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 24;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.GenCb.Location = new System.Drawing.Point(39, 275);
+            this.GenCb.Name = "GenCb";
+            this.GenCb.Size = new System.Drawing.Size(200, 21);
+            this.GenCb.TabIndex = 24;
+            this.GenCb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // comboBox2
+            // DepCb
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(39, 336);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 21);
-            this.comboBox2.TabIndex = 25;
+            this.DepCb.FormattingEnabled = true;
+            this.DepCb.Location = new System.Drawing.Point(39, 336);
+            this.DepCb.Name = "DepCb";
+            this.DepCb.Size = new System.Drawing.Size(200, 21);
+            this.DepCb.TabIndex = 25;
             // 
             // dateTimePicker1
             // 
@@ -438,8 +438,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.DepCb);
+            this.Controls.Add(this.GenCb);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label7);
@@ -449,7 +449,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.EmpNameTb);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Teal;
@@ -481,7 +481,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox EmpNameTb;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -493,8 +493,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox GenCb;
+        private System.Windows.Forms.ComboBox DepCb;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button button1;
