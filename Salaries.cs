@@ -76,16 +76,12 @@ namespace WindowsFormsApp1
                     Period = PeriodTb.Value.Date.Month.ToString() + "-" + PeriodTb.Value.Date.Year.ToString();
                     int Amount = DSal * Convert.ToInt32(DaysTb.Text);
                     int Days = Convert.ToInt32(DaysTb.Text); 
-                    string Query = "insert into SalaryTb1 values('{0}','{1}','{2}','{3}','{4}','{5}')";
-                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
+                    string Query = "insert into SalaryTb1 values({0},{1},{2},'{3}',{4},'{5}')";
+                    Query = string.Format(Query, Name, EmpCb.SelectedValue.ToString(), Days, Period, Amount, DateTime.Today.Date);
                     Con.SetData(Query);
                     ShowSalaries();
                     MessageBox.Show("Salary Paid!!!");
-                    EmpNameTb.Text = "";
-                    DailySalTb.Text = "";
-                    GenCb.SelectedIndex = -1;
-                    DepCb.SelectedIndex = -1;
-
+                    DaysTb.Text = "";
                 }
 
             }
