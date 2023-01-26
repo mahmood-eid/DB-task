@@ -47,7 +47,7 @@
             this.EmpCb = new System.Windows.Forms.ComboBox();
             this.DaysTb = new System.Windows.Forms.TextBox();
             this.PeriodTb = new System.Windows.Forms.DateTimePicker();
-            this.label8 = new System.Windows.Forms.Label();
+            this.LogoutLbl = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -274,16 +274,17 @@
             this.PeriodTb.Size = new System.Drawing.Size(200, 26);
             this.PeriodTb.TabIndex = 52;
             // 
-            // label8
+            // LogoutLbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(708, 117);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 19);
-            this.label8.TabIndex = 67;
-            this.label8.Text = "Log Out";
+            this.LogoutLbl.AutoSize = true;
+            this.LogoutLbl.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutLbl.ForeColor = System.Drawing.Color.Teal;
+            this.LogoutLbl.Location = new System.Drawing.Point(708, 117);
+            this.LogoutLbl.Name = "LogoutLbl";
+            this.LogoutLbl.Size = new System.Drawing.Size(69, 19);
+            this.LogoutLbl.TabIndex = 67;
+            this.LogoutLbl.Text = "Log Out";
+            this.LogoutLbl.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox5
             // 
@@ -373,7 +374,7 @@
             this.AmountTb.BackColor = System.Drawing.Color.White;
             this.AmountTb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AmountTb.Enabled = false;
-            this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmountTb.ForeColor = System.Drawing.Color.Teal;
             this.AmountTb.Location = new System.Drawing.Point(39, 397);
             this.AmountTb.Name = "AmountTb";
@@ -389,7 +390,7 @@
             this.ClientSize = new System.Drawing.Size(836, 620);
             this.Controls.Add(this.AmountTb);
             this.Controls.Add(this.SalaryList);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.LogoutLbl);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox4);
@@ -451,7 +452,7 @@
         private System.Windows.Forms.ComboBox EmpCb;
         private System.Windows.Forms.TextBox DaysTb;
         private System.Windows.Forms.DateTimePicker PeriodTb;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label LogoutLbl;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox4;

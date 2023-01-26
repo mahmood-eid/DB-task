@@ -107,5 +107,10 @@ namespace WindowsFormsApp1
         {
             GetSalary();
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
