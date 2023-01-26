@@ -85,6 +85,7 @@
             this.PasswordTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.PasswordTb.Location = new System.Drawing.Point(442, 276);
             this.PasswordTb.Name = "PasswordTb";
+            this.PasswordTb.PasswordChar = '*';
             this.PasswordTb.Size = new System.Drawing.Size(164, 26);
             this.PasswordTb.TabIndex = 5;
             // 
