@@ -40,12 +40,14 @@ namespace WindowsFormsApp1
             // MessageBox.Show(DSal + "");
             if(DaysTb.Text == "")
             {
-                AmountTb.Text = "Rs" + (d * DSal);
+                AmountTb.Text = "Rs " + (d * DSal);
+            } else if(Convert.ToInt32(DaysTb.Text) > 31) {
+                MessageBox.Show("Days Can not be greater than 31");
             }
             else
             {
                 d = Convert.ToInt32(DaysTb.Text);
-                AmountTb.Text = "Rs" + (d * DSal);
+                AmountTb.Text = "Rs " + (d * DSal);
             }
         }
 
