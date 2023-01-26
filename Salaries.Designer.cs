@@ -370,11 +370,11 @@
             // 
             // AmountTb
             // 
-            this.AmountTb.BackColor = System.Drawing.Color.Teal;
+            this.AmountTb.BackColor = System.Drawing.Color.White;
             this.AmountTb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AmountTb.Enabled = false;
             this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.AmountTb.ForeColor = System.Drawing.Color.White;
+            this.AmountTb.ForeColor = System.Drawing.Color.Teal;
             this.AmountTb.Location = new System.Drawing.Point(39, 397);
             this.AmountTb.Name = "AmountTb";
             this.AmountTb.Size = new System.Drawing.Size(200, 19);
