@@ -56,7 +56,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.SalaryList = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.AmountTb = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -368,13 +368,13 @@
             this.SalaryList.TabIndex = 68;
             this.SalaryList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SalaryList_CellContentClick);
             // 
-            // textBox1
+            // AmountTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox1.Location = new System.Drawing.Point(39, 397);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 26);
-            this.textBox1.TabIndex = 69;
+            this.AmountTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.AmountTb.Location = new System.Drawing.Point(39, 397);
+            this.AmountTb.Name = "AmountTb";
+            this.AmountTb.Size = new System.Drawing.Size(200, 26);
+            this.AmountTb.TabIndex = 69;
             // 
             // Salaries
             // 
@@ -382,7 +382,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(836, 620);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AmountTb);
             this.Controls.Add(this.SalaryList);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox5);
@@ -455,6 +455,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DataGridView SalaryList;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox AmountTb;
     }
 }
